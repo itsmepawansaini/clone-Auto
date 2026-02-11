@@ -1,0 +1,185 @@
+.pbminfotech-ele-fid-style-2 .pbmit-fid-inner {
+    font-size: 100px;
+    line-height: 100px;
+    margin-bottom: 20px
+}
+
+.pbminfotech-ele-fid-style-2 .pbmit-fid-inner .pbmit-number-rotate {
+    overflow: visible !important;
+    text-shadow: 1px 1px 0 var(--pbmit-blackish-color), -1px -1px 0 var(--pbmit-blackish-color), 1px -1px 0 var(--pbmit-blackish-color), -1px 1px 0 var(--pbmit-blackish-color), 1px 1px 0 var(--pbmit-blackish-color);
+    color: var(--pbmit-white-color);
+    -webkit-text-fill-color: inherit;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: rgba(var(--pbmit-blackish-color-rgb), .3)
+}
+
+.pbminfotech-ele-fid-style-2 .pbmit-fid-inner .pbmit-fid-before span {
+    margin-right: -20px
+}
+
+.pbminfotech-ele-fid-style-2 .pbmit-fid-inner .pbmit-fid {
+    color: var(--pbmit-global-color)
+}
+
+.pbminfotech-ele-fid-style-2 .pbmit-heading-desc {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--pbmit-blackish-color);
+    font-family: var(--pbmit-body-typography-font-family)
+}
+
+.pbminfotech-ele-fid-style-2 .pbmit-fid-inner sub {
+    font-size: 80px;
+    line-height: 80px;
+    bottom: 0
+}
+
+.pbminfotech-ele-fid-style-3 .pbmit-fid-content {
+    display: inline-flex;
+    align-items: center
+}
+
+.pbminfotech-ele-fid-style-3 .pbmit-fid-inner {
+    font-size: 100px;
+    line-height: 100px;
+    margin-bottom: 0;
+    display: flex
+}
+
+.pbminfotech-ele-fid-style-3 .pbmit-fid-inner .pbmit-number-rotate {
+    overflow: visible !important;
+    text-shadow: 1px 1px 0 var(--pbmit-blackish-color), -1px -1px 0 var(--pbmit-blackish-color), 1px -1px 0 var(--pbmit-blackish-color), -1px 1px 0 var(--pbmit-blackish-color), 1px 1px 0 var(--pbmit-blackish-color);
+    color: var(--pbmit-white-color);
+    -webkit-text-fill-color: inherit;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: rgba(var(--pbmit-blackish-color-rgb), .3)
+}
+
+.pbminfotech-ele-fid-style-3 .pbmit-fid-inner .pbmit-fid {
+    color: var(--pbmit-global-color)
+}
+
+.pbminfotech-ele-fid-style-3 .pbmit-heading-desc {
+    font-weight: 600;
+    color: var(--pbmit-blackish-color)
+}
+
+.pbminfotech-ele-fid-style-3 .pbmit-fid-inner sub {
+    font-size: 80px;
+    line-height: 80px;
+    bottom: 0
+}
+
+.pbminfotech-ele-fid-style-3 .pbmit-fid sub {
+    margin-left: -20px
+}
+
+.pbminfotech-ele-fid-style-3 .pbmit-fid-before sub {
+    margin-right: -20px
+}
+
+.pbminfotech-ele-fid-style-3 .pbmit-heading-desc {
+    padding-left: 30px
+}
+
+.pbmit-service-style-2 {
+    position: relative
+}
+
+.pbmit-service-style-3 {
+    position: relative
+}
+
+.pbmit-service-style-3 {
+    margin: 0 !important
+}
+
+@keyframes anime {
+    0% {
+        transform-origin: left;
+        transform: scaleX(0)
+    }
+
+    50% {
+        transform-origin: left;
+        transform: scaleX(1)
+    }
+
+    51% {
+        transform-origin: right
+    }
+
+    100% {
+        transform-origin: right;
+        transform: scaleX(0)
+    }
+}
+
+@keyframes anime1 {
+    0% {
+        transform-origin: top;
+        transform: scaleY(0)
+    }
+
+    50% {
+        transform-origin: top;
+        transform: scaleY(1)
+    }
+
+    51% {
+        transform-origin: bottom
+    }
+
+    100% {
+        transform-origin: bottom;
+        transform: scaleY(0)
+    }
+}
+
+.pbmit-animation-style1,
+.pbmit-animation-style2 {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform
+}
+
+@keyframes pbmit-faded {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@supports (mix-blend-mode:exclusion) {
+
+    .pbmit-cursor.-exclusion,
+    .pbmit-cursor.-opaque {
+        mix-blend-mode: exclusion
+    }
+}
+
+@supports (mix-blend-mode:exclusion) {
+
+    .pbmit-cursor.-exclusion:before,
+    .pbmit-cursor.-opaque:before {
+        background: #fff
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.border-bottom {
+    border-color: #dbdbdb
+}

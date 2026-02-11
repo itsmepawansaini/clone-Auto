@@ -1,0 +1,811 @@
+.pbmit-heading-subheading {
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1
+}
+
+.pbmit-heading-subheading .pbmit-subtitle {
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-style: normal;
+    position: relative;
+    display: inline-block;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-heading-subheading .pbmit-subtitle:after,
+.pbmit-heading-subheading .pbmit-subtitle:before {
+    content: '/';
+    display: inline-block
+}
+
+.pbmit-heading-subheading .pbmit-title {
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -2px;
+    text-transform: none;
+    font-style: normal;
+    margin-bottom: 0
+}
+
+.pbmit-heading-subheading .pbmit-heading-desc {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0;
+    color: var(--pbmit-blackish-color);
+    text-transform: none
+}
+
+.pbmit-price-btn a {
+    transition: all .4s ease-in
+}
+
+.pbmit-price-btn .pbmit-button-icon-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    margin-left: 6px;
+    font-size: 12px
+}
+
+/* .pbmit-price-btn .pbmit-button-icon-wrapper::before {
+    content: "\e8dd";
+    font-family: pbminfotech-base-icons;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1em;
+    height: auto;
+    font-weight: 400;
+    transform: scale(.26) translate(-58px, 50px);
+    transition: transform .4s ease-in-out, opacity .4s ease-in-out
+} */
+
+.pbmit-price-btn .pbmit-button-icon {
+    display: inline-block;
+    transition: transform .4s ease-in-out, opacity .4s ease-in-out
+}
+
+.pbmit-price-btn .pbmit-button:hover .pbmit-button-icon-wrapper::before {
+    transform: scale(1) translate(-2px, 0)
+}
+
+.pbmit-price-btn .pbmit-button:hover .pbmit-button-icon {
+    transform: scale(.26) translate(45px, -50px)
+}
+
+.pbmit-ptable-price-w {
+    font-family: var(--pbmit-heading-typography-font-family);
+    font-weight: 700;
+    font-style: normal
+}
+
+.pbmit-price-btn .pbmit-button {
+    font-family: var(--pbmit-btn-typography-font-family);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    font-style: normal
+}
+
+.pbmit-service-style-1 .pbmit-featured-wrapper {
+    overflow: hidden;
+    border-radius: 30px
+}
+
+.pbmit-service-style-1 .pbmit-service-btn-wrapper {
+    position: absolute;
+    right: 50px;
+    bottom: -10px;
+    display: table;
+    text-align: center;
+    z-index: 1;
+    padding: 8px 8px 0 8px;
+    border-radius: 50px 50px 0 0;
+    background-color: var(--pbmit-white-color)
+}
+
+.pbmit-service-style-1 .pbmit-service-btn-wrapper::after,
+.pbmit-service-style-1 .pbmit-service-btn-wrapper::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    bottom: 10px;
+    height: 40px;
+    width: 20px;
+    box-shadow: 0 20px 0 0 var(--pbmit-white-color)
+}
+
+.pbmit-service-style-1 .pbmit-service-btn-wrapper::before {
+    right: 100%;
+    border-bottom-right-radius: 20px
+}
+
+.pbmit-service-style-1 .pbmit-service-btn-wrapper::after {
+    left: 100%;
+    border-bottom-left-radius: 20px
+}
+
+.pbmit-service-style-1 .pbmit-service-title {
+    position: relative;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-transform: capitalize;
+    word-break: break-all
+}
+
+.pbmit-service-style-1 .pbmit-service-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 30px;
+    color: var(--pbmit-global-color);
+    background-color: var(--pbmit-light-color)
+}
+
+.pbmit-service-style-2 {
+    position: relative
+}
+
+.pbmit-service-style-2 .pbmit-featured-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px
+}
+
+.pbmit-service-style-2 .pbmit-service-btn-wrapper {
+    position: absolute;
+    right: 50px;
+    bottom: -10px;
+    display: table;
+    text-align: center;
+    z-index: 1;
+    padding: 8px 8px 0 8px;
+    border-radius: 50px 50px 0 0;
+    background-color: var(--pbmit-white-color)
+}
+
+.pbmit-service-style-2 .pbmit-service-btn-wrapper::after,
+.pbmit-service-style-2 .pbmit-service-btn-wrapper::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    bottom: 10px;
+    height: 40px;
+    width: 20px;
+    box-shadow: 0 20px 0 0 var(--pbmit-white-color)
+}
+
+.pbmit-service-style-2 .pbmit-service-btn-wrapper::before {
+    left: -19px;
+    border-bottom-right-radius: 20px
+}
+
+.pbmit-service-style-2 .pbmit-service-btn-wrapper::after {
+    right: -19px;
+    border-bottom-left-radius: 20px
+}
+
+.pbmit-service-style-2 .pbmit-service-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 0
+}
+
+.pbmit-service-style-2 .pbmit-service-title,
+.pbmit-service-style-2 .pbmit-service-title a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-transform: capitalize
+}
+
+.pbmit-service-style-2 .pbmit-service-title a {
+    color: var(--pbmit-white-color)
+}
+
+.pbmit-service-style-2 .pbmit-service-title a:hover {
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-service-style-2 .pbmit-service-icon {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    z-index: 2;
+    font-size: 50px;
+    line-height: 50px;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-service-style-2 .pbmit-service-icon {
+    display: none
+}
+
+.pbmit-service-style-3 {
+    position: relative
+}
+
+.pbmit-service-style-3 {
+    margin: 0 !important
+}
+
+.pbmit-service-style-3 .pbmit-service-wrap {
+    display: flex;
+    align-items: center;
+    width: 50%
+}
+
+.pbmit-service-style-3 .pbmit-service-icon {
+    font-size: 50px;
+    line-height: 50px;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-service-style-3 .pbmit-service-title-wrap {
+    padding-left: 20px
+}
+
+.pbmit-service-style-3 .pbmit-service-title {
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 0
+}
+
+.pbmit-service-style-3 .pbmit-service-title,
+.pbmit-service-style-3 .pbmit-service-title a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-transform: capitalize
+}
+
+.pbmit-service-style-3:hover .pbmit-service-title a {
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-service-style-3 .pbmit-service-icon {
+    display: none
+}
+
+.pbmit-service-style-3 .pbmit-service-btn-wrapper .pbmit-service-btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 24px;
+    z-index: 2;
+    position: relative;
+    color: var(--pbmit-white-color);
+    background-color: var(--pbmit-blackish-color)
+}
+
+.pbmit-service-style-3:hover .pbmit-service-btn-wrapper .pbmit-service-btn {
+    background-color: var(--pbmit-global-color)
+}
+
+@keyframes anime {
+    0% {
+        transform-origin: left;
+        transform: scaleX(0)
+    }
+
+    50% {
+        transform-origin: left;
+        transform: scaleX(1)
+    }
+
+    51% {
+        transform-origin: right
+    }
+
+    100% {
+        transform-origin: right;
+        transform: scaleX(0)
+    }
+}
+
+@keyframes anime1 {
+    0% {
+        transform-origin: top;
+        transform: scaleY(0)
+    }
+
+    50% {
+        transform-origin: top;
+        transform: scaleY(1)
+    }
+
+    51% {
+        transform-origin: bottom
+    }
+
+    100% {
+        transform-origin: bottom;
+        transform: scaleY(0)
+    }
+}
+
+.pbmit-animation-style1,
+.pbmit-animation-style2 {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-pricing-table-box {
+    padding: 60px 40px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--pbmit-light-color)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-pricing-table-featured-col .pbmit-feature-wrap {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-head-wrap {
+    padding-bottom: 35px;
+    margin-bottom: 40px;
+    position: relative;
+    border-bottom: 1px solid rgba(var(--pbmit-blackish-color-rgb), .15)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-head-wrap::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    bottom: -1px;
+    left: 0;
+    background-color: var(--pbmit-global-color);
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-ptable-col:hover .pbmit-head-wrap::before {
+    width: 100%
+}
+
+.pbminfotech-ele-ptable-style-2 .pbminfotech-ptable-heading {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    font-weight: 600
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-ptable-price-w {
+    display: flex;
+    align-items: flex-start;
+    color: var(--pbmit-blackish-color)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-price-wrapper {
+    display: inline-flex;
+    align-items: flex-end
+}
+
+.pbminfotech-ele-ptable-style-2 .pbminfotech-ptable-symbol {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 400
+}
+
+/* .pbminfotech-ele-ptable-style-2 .pbminfotech-ptable-price {
+    font-size: 72px;
+    line-height: 72px;
+    padding-left: 3px;
+    letter-spacing: -3px
+} */
+
+.pbminfotech-ele-ptable-style-2 .pbminfotech-ptable-frequency {
+    position: relative
+}
+
+.pbminfotech-ele-ptable-style-2 .pbminfotech-ptable-frequency::before {
+    content: '/';
+    padding-right: 5px;
+    display: inline-block
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-ptable-line {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 30px
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-ptable-line:last-child {
+    margin-bottom: 0
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-ptable-line i {
+    font-size: 17px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: var(--pbmit-blackish-color)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-ptable-lines {
+    padding-bottom: 60px
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-price-btn {
+    display: inline-table;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 10px 15px 0 15px;
+    border-radius: 30px 30px 0 0;
+    background-color: var(--pbmit-white-color)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-price-btn::after,
+.pbminfotech-ele-ptable-style-2 .pbmit-price-btn::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    bottom: 0;
+    height: 40px;
+    width: 20px;
+    box-shadow: 0 15px 0 0 var(--pbmit-white-color)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-price-btn::before {
+    right: 100%;
+    border-bottom-right-radius: 15px
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-price-btn::after {
+    left: 100%;
+    border-bottom-left-radius: 15px
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-price-btn .pbmit-button {
+    display: inline-block;
+    padding: 19px 30px 17px 30px;
+    border-radius: 50px;
+    color: var(--pbmit-white-color);
+    background-color: var(--pbmit-blackish-color)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-price-btn .pbmit-button:hover {
+    color: var(--pbmit-white-color);
+    background-color: var(--pbmit-global-color)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-pricing-table-featured-col .pbmit-price-btn .pbmit-button {
+    background-color: var(--pbmit-global-color)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-pricing-table-featured-col .pbmit-price-btn .pbmit-button:hover {
+    background-color: var(--pbmit-blackish-color)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-pricing-table-featured-col .pbmit-pricing-table-box {
+    background-color: var(--pbmit-blackish-color)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-pricing-table-featured-col .pbmit-head-wrap {
+    border-color: rgba(var(--pbmit-white-color-rgb), .15)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-pricing-table-featured-col .pbminfotech-ptable-heading,
+.pbminfotech-ele-ptable-style-2 .pbmit-pricing-table-featured-col .pbmit-ptable-line,
+.pbminfotech-ele-ptable-style-2 .pbmit-pricing-table-featured-col .pbmit-ptable-price-w {
+    color: var(--pbmit-white-color)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-pricing-table-featured-col .pbminfotech-ptable-frequency {
+    color: rgba(var(--pbmit-white-color-rgb), .8)
+}
+
+.pbminfotech-ele-ptable-style-2 .pbmit-pricing-table-featured-col .pbmit-ptable-line i {
+    color: var(--pbmit-global-color)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-box {
+    padding: 60px 40px 45px 40px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-pricing-table-box {
+    border: 1px solid rgba(var(--pbmit-blackish-color-rgb), .15)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-col {
+    width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0 0 30px 0
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-inner {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-feature-wrap {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-head-wrap {
+    padding-right: 45px;
+    /* margin-right: 35px; */
+    position: relative;
+    border-right: 1px solid rgba(var(--pbmit-blackish-color-rgb), .15)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-head-wrap::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 0;
+    right: -1px;
+    top: 0;
+    background-color: var(--pbmit-global-color);
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:hover .pbmit-head-wrap::before {
+    height: 100%
+}
+
+.pbminfotech-ele-ptable-style-3 .pbminfotech-ptable-heading {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    font-weight: 600
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-price-w {
+    display: flex;
+    align-items: flex-start;
+    color: var(--pbmit-blackish-color)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-price-wrapper {
+    display: inline-flex;
+    align-items: flex-end
+}
+
+.pbminfotech-ele-ptable-style-3 .pbminfotech-ptable-symbol {
+    font-size: 36px;
+    line-height: 46px
+}
+
+/* .pbminfotech-ele-ptable-style-3 .pbminfotech-ptable-price {
+    font-size: 36px;
+    line-height: 72px
+} */
+
+.pbminfotech-ele-ptable-style-3 .pbminfotech-ptable-frequency {
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    font-weight: 600;
+    display: flex
+}
+
+.pbminfotech-ele-ptable-style-3 .pbminfotech-ptable-frequency::before {
+    content: '/';
+    padding-right: 5px;
+    display: inline-block
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-line {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 30px;
+    color: #565656;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-transform: capitalize
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-line:last-child {
+    margin-bottom: 0
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-line i {
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: var(--pbmit-blackish-color)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-line i {
+    transform: rotate(10deg);
+    font-size: 15px;
+    font-weight: 900
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-lines {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-lines .pbmit-ptable-line {
+    width: 50%
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-lines .pbmit-ptable-line:nth-child(odd) {
+    padding-right: 5px
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn {
+    display: inline-flex;
+    position: absolute;
+    bottom: -1px;
+    right: 40px
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a::after,
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    bottom: 0;
+    height: 40px;
+    width: 20px;
+    box-shadow: 0 15px 0 0 var(--pbmit-light-color);
+    transition: all .4s ease-in
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a::before {
+    right: 100%;
+    border-bottom-right-radius: 15px
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a::after {
+    left: 100%;
+    border-bottom-left-radius: 15px
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a {
+    padding: 19px 40px 17px 40px;
+    border-radius: 30px 30px 0 0;
+    color: var(--pbmit-blackish-color);
+    background-color: var(--pbmit-light-color)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover {
+    color: var(--pbmit-white-color);
+    background-color: var(--pbmit-blackish-color)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover::after,
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover::before {
+    box-shadow: 0 15px 0 0 var(--pbmit-blackish-color)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a {
+    background-color: var(--pbmit-white-color)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover {
+    background-color: var(--pbmit-global-color)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::after,
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::before {
+    box-shadow: 0 15px 0 0 var(--pbmit-white-color)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::after,
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::before {
+    box-shadow: 0 15px 0 0 var(--pbmit-global-color)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-pricing-table-box {
+    background-color: var(--pbmit-blackish-color)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-head-wrap {
+    border-color: rgba(var(--pbmit-white-color-rgb), .5)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbminfotech-ptable-frequency,
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbminfotech-ptable-heading,
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-line,
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-price-w {
+    color: var(--pbmit-white-color)
+}
+
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-line i,
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-price-w {
+    color: var(--pbmit-global-color)
+}
+
+@keyframes pbmit-faded {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@supports (mix-blend-mode:exclusion) {
+
+    .pbmit-cursor.-exclusion,
+    .pbmit-cursor.-opaque {
+        mix-blend-mode: exclusion
+    }
+}
+
+@supports (mix-blend-mode:exclusion) {
+
+    .pbmit-cursor.-exclusion:before,
+    .pbmit-cursor.-opaque:before {
+        background: #fff
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.pricing-two-bg {
+    background-image: url('../images/pricing-bg-img.png');
+    background-position: 0 300px;
+    background-repeat: no-repeat;
+    padding-bottom: 70px
+}

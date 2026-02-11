@@ -1,0 +1,905 @@
+.pbmit-heading-subheading {
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1
+}
+
+.pbmit-heading-subheading .pbmit-subtitle {
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-style: normal;
+    position: relative;
+    display: inline-block;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-heading-subheading .pbmit-subtitle:after,
+.pbmit-heading-subheading .pbmit-subtitle:before {
+    content: '/';
+    display: inline-block
+}
+
+.pbmit-heading-subheading .pbmit-title {
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -2px;
+    text-transform: none;
+    font-style: normal;
+    margin-bottom: 0
+}
+
+.pbmit-heading-subheading.white-text .pbmit-subtitle,
+.pbmit-heading-subheading.white-text .pbmit-title {
+    color: var(--pbmit-white-color)
+}
+
+.pbmit-ihbox .pbmit-ihbox-btn a {
+    transition: all .4s ease-in
+}
+
+.pbmit-ihbox-btn .pbmit-button-icon-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    margin-left: 6px;
+    font-size: 12px
+}
+
+.pbmit-ihbox-btn .pbmit-button-icon-wrapper::before {
+    content: "\e8dd";
+    font-family: pbminfotech-base-icons;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1em;
+    height: auto;
+    font-weight: 400;
+    transform: scale(.26) translate(-58px, 50px);
+    transition: transform .4s ease-in-out, opacity .4s ease-in-out
+}
+
+.pbmit-ihbox-btn .pbmit-button-icon {
+    display: inline-block;
+    transition: transform .4s ease-in-out, opacity .4s ease-in-out
+}
+
+.pbmit-ihbox-btn a:hover .pbmit-button-icon-wrapper::before {
+    transform: scale(1) translate(-2px, 0)
+}
+
+.pbmit-ihbox-btn a:hover .pbmit-button-icon {
+    transform: scale(.26) translate(45px, -50px)
+}
+
+.pbmit-ihbox-style-1 {
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    transition: all .25s ease-out
+}
+
+.pbmit-ihbox-style-1:hover {
+    transform: translate(0, -5px)
+}
+
+.pbmit-ihbox-style-1 .pbmit-ihbox-icon,
+.pbmit-ihbox-style-1 .pbmit-ihbox-svg {
+    margin-bottom: 25px;
+    display: inline-block
+}
+
+.pbmit-ihbox-style-1 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-1 .pbmit-ihbox-icon-type-text,
+.pbmit-ihbox-style-1 .pbmit-ihbox-svg {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 35px;
+    color: var(--pbmit-global-color);
+    background-color: var(--pbmit-light-color)
+}
+
+.pbmit-ihbox-style-1 .pbmit-ihbox-svg svg {
+    width: 40px;
+    height: 40px;
+    fill: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-1 .pbmit-ihbox-icon-type-text {
+    font-size: 24px
+}
+
+.pbmit-ihbox-style-1 .pbmit-element-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 8px
+}
+
+.pbmit-ihbox-style-1 .pbmit-element-subtitle {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 5px
+}
+
+.pbmit-ihbox-style-2 {
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    transition: all .25s ease-out
+}
+
+.pbmit-ihbox-style-2:hover {
+    transform: translate(0, -5px)
+}
+
+.pbmit-ihbox-style-2 .pbmit-ihbox-icon,
+.pbmit-ihbox-style-2 .pbmit-ihbox-svg {
+    margin-right: 20px;
+    display: inline-block
+}
+
+.pbmit-ihbox-style-2 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-2 .pbmit-ihbox-icon-type-text,
+.pbmit-ihbox-style-2 .pbmit-ihbox-svg {
+    min-width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 35px;
+    color: var(--pbmit-global-color);
+    background-color: var(--pbmit-light-color)
+}
+
+.pbmit-ihbox-style-2 .pbmit-ihbox-svg svg {
+    width: 40px;
+    height: 40px;
+    fill: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-2 .pbmit-ihbox-icon-type-text {
+    font-size: 24px
+}
+
+.pbmit-ihbox-style-2 .pbmit-element-title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 5px
+}
+
+.pbmit-ihbox-style-2 .pbmit-element-subtitle {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 5px
+}
+
+.pbmit-ihbox-style-3 {
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    transition: all .25s ease-out
+}
+
+.pbmit-ihbox-style-3 .pbmit-ihbox-wrap {
+    display: inline-flex;
+    align-items: center
+}
+
+.pbmit-ihbox-style-3 .pbmit-ihbox-icon,
+.pbmit-ihbox-style-3 .pbmit-ihbox-svg {
+    margin-right: 20px;
+    display: inline-block
+}
+
+.pbmit-ihbox-style-3 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-3 .pbmit-ihbox-icon-type-text,
+.pbmit-ihbox-style-3 .pbmit-ihbox-svg {
+    min-width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 35px;
+    color: var(--pbmit-blackish-color);
+    background-color: var(--pbmit-white-color)
+}
+
+.pbmit-ihbox-style-3 .pbmit-ihbox-svg svg {
+    width: 40px;
+    height: 40px;
+    fill: var(--pbmit-blackish-color)
+}
+
+.pbmit-ihbox-style-3 .pbmit-ihbox-icon-type-text {
+    font-size: 24px
+}
+
+.pbmit-ihbox-style-3 .pbmit-element-title,
+.pbmit-ihbox-style-3 .pbmit-element-title a {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: var(--pbmit-white-color)
+}
+
+.pbmit-ihbox-style-3 .pbmit-element-subtitle,
+.pbmit-ihbox-style-3 .pbmit-element-subtitle a {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    color: rgba(var(--pbmit-white-color-rgb), .8)
+}
+
+.pbmit-ihbox-style-3 .pbmit-element-subtitle a:hover,
+.pbmit-ihbox-style-3 .pbmit-element-title a:hover {
+    color: var(--pbmit-blackish-color)
+}
+
+.pbmit-ihbox-style-3 {
+    padding: 25px 25px 0 0;
+    position: relative;
+    background-color: var(--pbmit-white-color);
+    border-radius: 0 30px 0 0
+}
+
+.pbmit-ihbox-style-3 .pbmit-ihbox-btn a {
+    color: var(--pbmit-white-color) !important
+}
+
+.pbmit-ihbox-style-3 .pbmit-ihbox-btn a:hover {
+    color: var(--pbmit-blackish-color) !important
+}
+
+.pbmit-ihbox-style-4,
+.pbmit-ihbox-style-4 .pbmit-ihbox-icon,
+.pbmit-ihbox-style-4 .pbmit-ihbox-svg {
+    display: inline-block;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    transition: all .25s ease-out
+}
+
+.pbmit-ihbox-style-4 .pbmit-ihbox-icon,
+.pbmit-ihbox-style-4 .pbmit-ihbox-svg {
+    margin-bottom: 5px;
+    display: inline-block
+}
+
+.pbmit-ihbox-style-4:hover .pbmit-ihbox-icon,
+.pbmit-ihbox-style-4:hover .pbmit-ihbox-svg {
+    transform: translate(0, -5px)
+}
+
+.pbmit-ihbox-style-4 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-4 .pbmit-ihbox-icon-type-text,
+.pbmit-ihbox-style-4 .pbmit-ihbox-svg {
+    font-size: 50px;
+    line-height: 50px;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-4 .pbmit-ihbox-svg svg {
+    width: 50px;
+    height: 50px;
+    fill: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-4 .pbmit-ihbox-icon-type-text {
+    font-size: 30px
+}
+
+.pbmit-ihbox-style-4 .pbmit-element-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 25px
+}
+
+.pbmit-ihbox-style-4 .pbmit-element-subtitle {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    color: #565656
+}
+
+.pbmit-ihbox-style-5 {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    transition: all .25s ease-out
+}
+
+.pbmit-ihbox-style-5 .pbmit-icon-wrap {
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 100px
+}
+
+.pbmit-ihbox-style-5 .pbmit-ihbox-icon,
+.pbmit-ihbox-style-5 .pbmit-ihbox-svg {
+    margin-right: 10px;
+    display: inline-block
+}
+
+.pbmit-ihbox-style-5 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-5 .pbmit-ihbox-icon-type-text,
+.pbmit-ihbox-style-5 .pbmit-ihbox-svg {
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-5 .pbmit-ihbox-svg svg {
+    width: 25px;
+    height: 25px;
+    fill: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-5 .pbmit-ihbox-icon-type-text {
+    font-size: 24px
+}
+
+.pbmit-ihbox-style-5 .pbmit-element-title {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 0
+}
+
+.pbmit-ihbox-style-5 .pbmit-element-subtitle,
+.pbmit-ihbox-style-5 .pbmit-element-subtitle a {
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 0;
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-5 .pbmit-element-subtitle::after,
+.pbmit-ihbox-style-5 .pbmit-element-subtitle::before {
+    content: '/';
+    display: inline-block
+}
+
+.pbmit-ihbox-style-5 .pbmit-element-subtitle a:hover {
+    color: var(--pbmit-blackish-color)
+}
+
+.pbmit-ihbox-style-5 .pbmit-element-title {
+    margin-bottom: 50px
+}
+
+.pbmit-ihbox-style-5 .pbmit-ihbox-btn .pbmit-button-text {
+    display: none
+}
+
+.pbmit-ihbox-style-5 .pbmit-ihbox-btn {
+    padding: 10px 10px 0 10px;
+    border-radius: 50px 50px 0 0;
+    display: inline-block;
+    position: relative;
+    background-color: var(--pbmit-white-color)
+}
+
+.pbmit-ihbox-style-5 .pbmit-ihbox-btn::after,
+.pbmit-ihbox-style-5 .pbmit-ihbox-btn::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    bottom: 0;
+    height: 40px;
+    width: 20px;
+    box-shadow: 0 20px 0 0 var(--pbmit-white-color)
+}
+
+.pbmit-ihbox-style-5 .pbmit-ihbox-btn::before {
+    left: -20px;
+    border-bottom-right-radius: 20px
+}
+
+.pbmit-ihbox-style-5 .pbmit-ihbox-btn::after {
+    right: -20px;
+    border-bottom-left-radius: 20px
+}
+
+.pbmit-ihbox-style-5 .pbmit-ihbox-btn a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    color: var(--pbmit-white-color) !important;
+    background-color: var(--pbmit-blackish-color)
+}
+
+.pbmit-ihbox-style-5 .pbmit-ihbox-btn a .pbmit-button-icon-wrapper {
+    margin-left: 0
+}
+
+.pbmit-ihbox-style-6 {
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+    margin-bottom: 30px
+}
+
+.pbmit-ihbox-style-6 {
+    position: relative
+}
+
+.pbmit-ihbox-style-6:hover {
+    transform: translate(0, -5px)
+}
+
+.pbmit-ihbox-style-6 .pbmit-element-subtitle {
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 0;
+    text-transform: uppercase
+}
+
+.pbmit-ihbox-style-6 .pbmit-element-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px
+}
+
+.pbmit-ihbox-style-6 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-6 .pbmit-ihbox-icon-type-text,
+.pbmit-ihbox-style-6 .pbmit-ihbox-svg {
+    font-size: 60px;
+    line-height: 60px;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-6 .pbmit-ihbox-svg svg {
+    width: 60px;
+    height: 60px;
+    fill: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-7 {
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    transition: all .25s ease-out
+}
+
+.pbmit-ihbox-style-7 .pbmit-icon-wrapper {
+    display: flex;
+    align-items: center
+}
+
+.pbmit-ihbox-style-7 .pbmit-ihbox-icon,
+.pbmit-ihbox-style-7 .pbmit-ihbox-svg {
+    padding-right: 15px
+}
+
+.pbmit-ihbox-style-7 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-7 .pbmit-ihbox-icon-type-text,
+.pbmit-ihbox-style-7 .pbmit-ihbox-svg {
+    font-size: 25px;
+    line-height: 25px;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-7 .pbmit-ihbox-svg svg {
+    width: 25x;
+    height: 25x;
+    fill: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-7 .pbmit-element-title {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 0
+}
+
+.pbmit-ihbox-style-7 .pbmit-element-subtitle {
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 0;
+    text-transform: uppercase
+}
+
+.pbmit-ihbox-style-7 .pbmit-element-title a .pbmit-button-icon-wrapper {
+    display: none
+}
+
+.e-transform .pbmit-ihbox-style-7 .pbmit-ihbox-box {
+    display: inline-block;
+    position: relative;
+    padding: 20px 40px 0 40px;
+    border-radius: 20px 20px 0 0;
+    background-color: var(--pbmit-white-color)
+}
+
+.e-transform .pbmit-ihbox-style-7 .pbmit-ihbox-box::after,
+.e-transform .pbmit-ihbox-style-7 .pbmit-ihbox-box::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    bottom: 0;
+    height: 40px;
+    width: 20px;
+    box-shadow: 0 15px 0 0 var(--pbmit-white-color)
+}
+
+.e-transform .pbmit-ihbox-style-7 .pbmit-ihbox-box::before {
+    right: 106.5% !important;
+    top: 17% !important;
+    border-bottom-right-radius: 15px
+}
+
+.e-transform .pbmit-ihbox-style-7 .pbmit-ihbox-box::after {
+    left: 106.5% !important;
+    top: 17% !important;
+    border-bottom-left-radius: 15px
+}
+
+.e-transform .pbmit-ihbox-style-7 .pbmit-icon-type-icon {
+    transform: rotate(45deg)
+}
+
+.pbmit-ihbox-style-8 {
+    display: inline-block;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    transition: all .25s ease-out
+}
+
+.pbmit-ihbox-style-8 .pbmit-ihbox-icon,
+.pbmit-ihbox-style-8 .pbmit-ihbox-svg {
+    margin-right: 20px;
+    display: inline-block
+}
+
+.pbmit-ihbox-style-8 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-8 .pbmit-ihbox-icon-type-text,
+.pbmit-ihbox-style-8 .pbmit-ihbox-svg {
+    font-size: 70px;
+    line-height: 70px;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-8 .pbmit-ihbox-svg svg {
+    width: 70px;
+    height: 70px;
+    fill: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-8 .pbmit-ihbox-icon-type-text {
+    font-size: 30px
+}
+
+.pbmit-ihbox-style-8 .pbmit-element-title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0
+}
+
+.pbmit-ihbox-style-8 .pbmit-element-subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-9 {
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    transition: all .25s ease-out
+}
+
+.pbmit-ihbox-style-9 .pbmit-ihbox-icon,
+.pbmit-ihbox-style-9 .pbmit-ihbox-svg {
+    margin-right: 20px;
+    display: inline-block
+}
+
+.pbmit-ihbox-style-9 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-9 .pbmit-ihbox-icon-type-text,
+.pbmit-ihbox-style-9 .pbmit-ihbox-svg {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 26px;
+    line-height: 20px;
+    color: var(--pbmit-global-color);
+    background-color: var(--pbmit-light-bg-color)
+}
+
+.pbmit-ihbox-style-9 .pbmit-ihbox-svg svg {
+    width: 40px;
+    height: 40px;
+    fill: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-9 .pbmit-ihbox-icon-type-text {
+    font-size: 24px
+}
+
+.pbmit-ihbox-style-9 .pbmit-element-title {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 15px;
+    font-weight: 600
+}
+
+.pbmit-ihbox-style-9 .pbmit-element-subtitle {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 5px
+}
+
+.pbmit-ihbox-style-10 {
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    transition: all .25s ease-out
+}
+
+.pbmit-ihbox-style-10 {
+    position: relative
+}
+
+.pbmit-ihbox-style-10:hover {
+    transform: translate(0, -5px)
+}
+
+.pbmit-ihbox-style-10 .pbmit-element-subtitle {
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 0;
+    text-transform: uppercase
+}
+
+.pbmit-ihbox-style-10 .pbmit-element-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px
+}
+
+.pbmit-ihbox-style-10 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-10 .pbmit-ihbox-icon-type-text,
+.pbmit-ihbox-style-10 .pbmit-ihbox-svg {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 45px;
+    color: var(--pbmit-global-color);
+    background-color: var(--pbmit-light-color)
+}
+
+.pbmit-ihbox-style-10 .pbmit-ihbox-svg svg {
+    fill: var(--pbmit-global-color)
+}
+
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn .pbmit-button-text {
+    font-size: 0
+}
+
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn a .pbmit-button-icon-wrapper {
+    margin-left: 0
+}
+
+.pbmit-ihbox-style-10 .pbmit-btn-wrap {
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn {
+    border-radius: 30px 0 0 0;
+    padding: 10px 0 0 10px;
+    background-color: var(--pbmit-white-color);
+    border-left: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5
+}
+
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn a {
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 18px;
+    z-index: 2;
+    position: relative;
+    color: var(--pbmit-blackish-color) !important;
+    background-color: var(--pbmit-light-color)
+}
+
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn a:hover {
+    color: var(--pbmit-white-color) !important;
+    background-color: var(--pbmit-blackish-color)
+}
+
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn::after,
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn::before {
+    content: "";
+    position: absolute;
+    top: -29px;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 0 0 20px 0;
+    background-color: transparent;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+    border-left: 0;
+    box-shadow: 0 15px 0 0 var(--pbmit-white-color)
+}
+
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn::after {
+    top: inherit;
+    bottom: 0;
+    left: -29px;
+    right: 0
+}
+
+.content-element-text {
+    position: relative;
+    z-index: 99;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-right: 30px
+}
+
+@keyframes anime {
+    0% {
+        transform-origin: left;
+        transform: scaleX(0)
+    }
+
+    50% {
+        transform-origin: left;
+        transform: scaleX(1)
+    }
+
+    51% {
+        transform-origin: right
+    }
+
+    100% {
+        transform-origin: right;
+        transform: scaleX(0)
+    }
+}
+
+@keyframes anime1 {
+    0% {
+        transform-origin: top;
+        transform: scaleY(0)
+    }
+
+    50% {
+        transform-origin: top;
+        transform: scaleY(1)
+    }
+
+    51% {
+        transform-origin: bottom
+    }
+
+    100% {
+        transform-origin: bottom;
+        transform: scaleY(0)
+    }
+}
+
+.pbmit-animation-style1,
+.pbmit-animation-style2 {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform
+}
+
+@keyframes pbmit-faded {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@supports (mix-blend-mode:exclusion) {
+
+    .pbmit-cursor.-exclusion,
+    .pbmit-cursor.-opaque {
+        mix-blend-mode: exclusion
+    }
+}
+
+@supports (mix-blend-mode:exclusion) {
+
+    .pbmit-cursor.-exclusion:before,
+    .pbmit-cursor.-opaque:before {
+        background: #fff
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.appointment-two-bg {
+    position: relative;
+    padding: 130px 0 100px 60px;
+    border-radius: 30px;
+    background-image: url('../images/cta.jpg')
+}
+
+.appointment-two-bg .ihbox-style-area {
+    position: absolute;
+    right: -106px;
+    width: auto;
+    top: 45%;
+    max-width: 100%;
+    transform: rotateZ(-90deg)
+}
+
+.contact-us-left-area {
+    padding-right: 115px
+}
+
+.pbmit-ihbox-style-7 {
+    box-shadow: none !important;
+    border-radius: 22px;
+}

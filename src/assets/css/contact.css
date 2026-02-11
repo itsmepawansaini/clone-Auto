@@ -1,0 +1,441 @@
+.pbmit-heading-subheading {
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1
+}
+
+.pbmit-heading-subheading .pbmit-subtitle {
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-style: normal;
+    position: relative;
+    display: inline-block;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-heading-subheading .pbmit-subtitle:after,
+.pbmit-heading-subheading .pbmit-subtitle:before {
+    content: '/';
+    display: inline-block
+}
+
+.pbmit-heading-subheading .pbmit-title {
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -2px;
+    text-transform: none;
+    font-style: normal;
+    margin-bottom: 0
+}
+
+.pbmit-heading-subheading .pbmit-heading-desc {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0;
+    color: var(--pbmit-blackish-color);
+    text-transform: none
+}
+
+.pbmit-service-style-1 .pbmit-service-btn-wrapper {
+    position: absolute;
+    right: 50px;
+    bottom: -10px;
+    display: table;
+    text-align: center;
+    z-index: 1;
+    padding: 8px 8px 0 8px;
+    border-radius: 50px 50px 0 0;
+    background-color: var(--pbmit-white-color)
+}
+
+.pbmit-service-style-1 .pbmit-service-btn-wrapper::after,
+.pbmit-service-style-1 .pbmit-service-btn-wrapper::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    bottom: 10px;
+    height: 40px;
+    width: 20px;
+    box-shadow: 0 20px 0 0 var(--pbmit-white-color)
+}
+
+.pbmit-service-style-1 .pbmit-service-btn-wrapper::before {
+    right: 100%;
+    border-bottom-right-radius: 20px
+}
+
+.pbmit-service-style-1 .pbmit-service-btn-wrapper::after {
+    left: 100%;
+    border-bottom-left-radius: 20px
+}
+
+.pbmit-service-style-1 .pbmit-service-title {
+    position: relative;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-transform: capitalize;
+    word-break: break-all
+}
+
+.pbmit-service-style-1 .pbmit-service-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 30px;
+    color: var(--pbmit-global-color);
+    background-color: var(--pbmit-light-color)
+}
+
+.pbmit-service-style-2 {
+    position: relative
+}
+
+.pbmit-service-style-2 .pbmit-service-btn-wrapper {
+    position: absolute;
+    right: 50px;
+    bottom: -10px;
+    display: table;
+    text-align: center;
+    z-index: 1;
+    padding: 8px 8px 0 8px;
+    border-radius: 50px 50px 0 0;
+    background-color: var(--pbmit-white-color)
+}
+
+.pbmit-service-style-2 .pbmit-service-btn-wrapper::after,
+.pbmit-service-style-2 .pbmit-service-btn-wrapper::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    bottom: 10px;
+    height: 40px;
+    width: 20px;
+    box-shadow: 0 20px 0 0 var(--pbmit-white-color)
+}
+
+.pbmit-service-style-2 .pbmit-service-btn-wrapper::before {
+    left: -19px;
+    border-bottom-right-radius: 20px
+}
+
+.pbmit-service-style-2 .pbmit-service-btn-wrapper::after {
+    right: -19px;
+    border-bottom-left-radius: 20px
+}
+
+.pbmit-service-style-2 .pbmit-service-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 0
+}
+
+.pbmit-service-style-2 .pbmit-service-title,
+.pbmit-service-style-2 .pbmit-service-title a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-transform: capitalize
+}
+
+.pbmit-service-style-2 .pbmit-service-title a {
+    color: var(--pbmit-white-color)
+}
+
+.pbmit-service-style-2 .pbmit-service-title a:hover {
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-service-style-2 .pbmit-service-icon img {
+    max-width: 50px;
+    height: 50px
+}
+
+.pbmit-service-style-2 .pbmit-service-icon {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    z-index: 2;
+    font-size: 50px;
+    line-height: 50px;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-service-style-2 .pbmit-service-icon {
+    display: none
+}
+
+.pbmit-service-style-3 {
+    position: relative
+}
+
+.pbmit-service-style-3 {
+    margin: 0 !important
+}
+
+.pbmit-service-style-3 .pbmit-service-icon {
+    font-size: 50px;
+    line-height: 50px;
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-service-style-3 .pbmit-service-title {
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 0
+}
+
+.pbmit-service-style-3 .pbmit-service-title,
+.pbmit-service-style-3 .pbmit-service-title a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-transform: capitalize
+}
+
+.pbmit-service-style-3:hover .pbmit-service-title a {
+    color: var(--pbmit-global-color)
+}
+
+.pbmit-service-style-3 .pbmit-service-icon {
+    display: none
+}
+
+.pbmit-service-style-3 .pbmit-service-btn-wrapper .pbmit-service-btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 24px;
+    z-index: 2;
+    position: relative;
+    color: var(--pbmit-white-color);
+    background-color: var(--pbmit-blackish-color)
+}
+
+.pbmit-service-style-3:hover .pbmit-service-btn-wrapper .pbmit-service-btn {
+    background-color: var(--pbmit-global-color)
+}
+
+@keyframes anime {
+    0% {
+        transform-origin: left;
+        transform: scaleX(0)
+    }
+
+    50% {
+        transform-origin: left;
+        transform: scaleX(1)
+    }
+
+    51% {
+        transform-origin: right
+    }
+
+    100% {
+        transform-origin: right;
+        transform: scaleX(0)
+    }
+}
+
+@keyframes anime1 {
+    0% {
+        transform-origin: top;
+        transform: scaleY(0)
+    }
+
+    50% {
+        transform-origin: top;
+        transform: scaleY(1)
+    }
+
+    51% {
+        transform-origin: bottom
+    }
+
+    100% {
+        transform-origin: bottom;
+        transform: scaleY(0)
+    }
+}
+
+.pbmit-animation-style1,
+.pbmit-animation-style2 {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform
+}
+
+.pbmit-animation-style1 img,
+.pbmit-animation-style2 img {
+    transform-origin: 50% 50%;
+    transition: 2s cubic-bezier(.5, .5, 0, 1)
+}
+
+@keyframes pbmit-faded {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@supports (mix-blend-mode:exclusion) {
+
+    .pbmit-cursor.-exclusion,
+    .pbmit-cursor.-opaque {
+        mix-blend-mode: exclusion
+    }
+}
+
+@supports (mix-blend-mode:exclusion) {
+
+    .pbmit-cursor.-exclusion:before,
+    .pbmit-cursor.-opaque:before {
+        background: #fff
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.tween-effect-style-area {
+    margin: 0 0 0 -200px
+}
+
+.pbmit-tween-effect-style-1 .pbmit-tween-effect img {
+    border-radius: 30px
+}
+
+.contact-us-left-area {
+    padding-right: 115px
+}
+
+.contact-us-left-area .tween-style {
+    position: absolute;
+    width: auto;
+    max-width: 100%;
+    left: 0;
+    bottom: -50px;
+    margin: 0 0 0 -200px
+}
+
+.contact-form-rightbox {
+    padding: 60px 60px 0 60px;
+    border-radius: 30px
+}
+
+.contact-form-rightbox form {
+    position: relative;
+    padding-bottom: 60px
+}
+
+.contact-form-rightbox form button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 18px 36px;
+    border-radius: 30px 30px 0 0;
+    color: var(--pbmit-blackish-color);
+    background-color: var(--pbmit-white-color)
+}
+
+.contact-form-rightbox form button:after,
+.contact-form-rightbox form button:before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    bottom: 0;
+    height: 40px;
+    width: 20px;
+    box-shadow: 0 20px 0 0 var(--pbmit-white-color);
+    transition: all .3s ease-in-out
+}
+
+.contact-form-rightbox form button:before {
+    right: 100%;
+    border-bottom-right-radius: 20px
+}
+
+.contact-form-rightbox form button:after {
+    left: 100%;
+    border-bottom-left-radius: 20px
+}
+
+.contact-form-rightbox form button svg path {
+    stroke: var(--pbmit-blackish-color)
+}
+
+.contact-form-rightbox form button:hover {
+    color: var(--pbmit-global-color);
+    background-color: var(--pbmit-white-color)
+}
+
+.message-status {
+    margin-top: 30px
+}
+
+.form-control {
+    display: block;
+    font-weight: 400;
+    border: 1px solid rgba(var(--pbmit-blackish-color-rgb), .2);
+    background-color: transparent;
+    height: 60px;
+    font-size: 14px;
+    padding: 10px 35px;
+    border-radius: 50px;
+    margin-bottom: 20px
+}
+
+.form-control:focus {
+    border-color: rgba(var(--pbmit-blackish-color-rgb), .8);
+    background-color: transparent
+}
+
+.pbmit-bg-color-light .form-control::placeholder {
+    color: rgba(var(--pbmit-blackish-color-rgb), .4)
+}
+
+.pbmit-bg-color-light .form-control:focus::placeholder {
+    color: rgba(var(--pbmit-blackish-color-rgb), .8)
+}
+
+form textarea.form-control {
+    height: 110px;
+    resize: none;
+    padding: 20px;
+    border-radius: 20px
+}
